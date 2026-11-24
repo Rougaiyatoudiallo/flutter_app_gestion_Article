@@ -10,6 +10,13 @@ class ListArticlesPages extends StatefulWidget {
 class _ListArticlesPagesState extends State<ListArticlesPages> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Liste des articles'),
+      ),
+      body: const Center(
+        child: Text('Bienvenue sur la page de la liste des articles!'),
+      ),
+    );
   }
 }

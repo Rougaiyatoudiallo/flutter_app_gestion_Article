@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 
 class AjoutArticlePage extends StatefulWidget {
-  const AjoutArticlePage({super.key});
-
-  @override
   State<AjoutArticlePage> createState() => _AjoutArticlePageState();
 }
 
